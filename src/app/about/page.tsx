@@ -103,7 +103,14 @@ const AboutPage = () => {
         </p>
       </Section>
       <Section title="فريق العمل" titleColor="text-sky-700">
-        <List items={["قصاص أحمد عبد النور", "شدادي خليل عبد الرحمان"]} />
+        <List
+          items={[
+            "قصاص أحمد عبد النور",
+            "شدادي خليل عبد الرحمان",
+            "basketingballs",
+            "dench",
+          ]}
+        />
       </Section>
 
       <footer className="text-center mt-12">
